@@ -18,7 +18,7 @@ If you have tried gitalk plugin according to [here](https://docsify.js.org/#/plu
 
     ![picture](resources/gitalk-default.png)
 
-    There is hardly no spacing between the bottom of gitalk and the bottom of the wholepage, and:
+    There is hardly no spacing between the bottom of gitalk and the bottom of the whole page, and:
 
 - As docsify refresh pages partly while using hash mode, gitalk won't be able to refetch the actual comments under each page. As a result, readers may comment under wrong articles.
 
@@ -41,6 +41,7 @@ In `index.html`, add:
 ```html
 <!-- docsify-gitalk-with-footer plugin -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
+
 <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/pikapikapikaori/docsify-gitalk-with-footer/src/gitalkWithFooter.js"></script>
 ```
