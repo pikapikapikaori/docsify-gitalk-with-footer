@@ -6,6 +6,8 @@
   <code>docsify-gitalk-with-footer</code>
 </p>
 
+![badge](https://img.shields.io/github/license/pikapikapikaori/docsify-gitalk-with-footer) ![badge](https://img.shields.io/github/last-commit/pikapikapikaori/docsify-gitalk-with-footer)
+
 [English](/) | 中文
 
 这是一款为dcosify增强gitalk功能的插件
@@ -89,3 +91,5 @@ window.$docsify = {
 如果您有对[本项目](https://github.com/pikapikapikaori/docsify-gitalk-with-footer)的优化，欢迎提交PR。
 
 如果您喜欢本插件，可以给我点个star，谢谢！
+
+我开发的一些其他工具可以参考[我的博客](https://pikapikapikaori.github.io/pikapikapi-blog/#/ITtech/)。

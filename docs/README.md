@@ -6,6 +6,8 @@
   <code>docsify-gitalk-with-footer</code>
 </p>
 
+![badge](https://img.shields.io/github/license/pikapikapikaori/docsify-gitalk-with-footer) ![badge](https://img.shields.io/github/last-commit/pikapikapikaori/docsify-gitalk-with-footer)
+
 English | [中文](/zh-cn/)
 
 This is a plugin to enhance gitalk for docsify.
@@ -91,3 +93,5 @@ window.$docsify = {
 It's welcomed to make pr to [this repo](https://github.com/pikapikapikaori/docsify-gitalk-with-footer) in order to improve this plugin.
 
 If you like this plugin, please give a star, thanks!
+
+For more tools I developed please refer to [my blog](https://pikapikapikaori.github.io/pikapikapi-blog/#/en-us/ITtech/).
