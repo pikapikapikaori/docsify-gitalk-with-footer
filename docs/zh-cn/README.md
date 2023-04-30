@@ -46,7 +46,7 @@
 <script src="https://cdn.jsdelivr.net/gh/pikapikapikaori/docsify-gitalk-with-footer/src/gitalkWithFooter.js"></script>
 ```
 
-添加一下设置。注意，请**不要在`gitalkConfig`中添加`id`的设置**:
+添加以下设置。注意，请**不要在`gitalkConfig`中添加`id`的设置**:
 
 ```js
 window.$docsify = {
