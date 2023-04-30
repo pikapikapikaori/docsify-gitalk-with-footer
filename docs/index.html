@@ -14,14 +14,32 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: 'docsify-gitalk-with-footer',
+      repo: 'https://github.com/pikapikapikaori/docsify-gitalk-with-footer',
+      loadSidebar: true,
+      subMaxLevel: 3,
+
+      // docsify-gitalk-with-footer plugin
+      gitalkWithFooter: {
+        footerInnerHtml: "<div style='text-align: center;max-width: 80%;align-self: center;padding: 30px 15px 20px;margin: 0 auto'><p>This is footer</p><p>这里是尾注</p></div>",
+        gitalkConfig: {
+          clientID: 'e89be9e3bd818ed748d0', // Your Client Id
+          clientSecret: '17b3317b997cb5c55d4beb7dc69e21a5a12f98ff', // Your Client secret
+          repo: 'docsify-gitalk-with-footer',
+          owner: 'pikapikapikaori',
+          admin: ['pikapikapikaori'],
+          // facebook-like distraction free mode
+          distractionFreeMode: false,
+        }
+      },
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  
+
+  <!-- docsify-gitalk-with-footer plugin -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
+
   <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/pikapikapikaori/docsify-gitalk-with-footer/src/gitalkWithFooter.js"></script>
 </body>

@@ -6,7 +6,7 @@
   <code>docsify-gitalk-with-footer</code>
 </p>
 
-[English](README.md) | 中文
+[English](/) | 中文
 
 这是一款为dcosify增强gitalk功能的插件
 
@@ -16,7 +16,7 @@
 
 - gitalk被渲染在整个页面底部，其最下方文字与页面底部几乎没有距离：
 
-    ![picture](docs/resources/gitalk-default.png)
+    ![picture](../resources/gitalk-default.png)
 
 - 由于docsify默认采取哈西模式路由，页面更改时仅刷新页面局部，因而gitalk并未能来得及重新更改页面获取到的`id`，从而导致了如果你不进行页面刷新的话，评论区所关联的文章可能并不正确。
 
@@ -24,7 +24,7 @@
 
 本插件在gitalk下方添加了一个footer，如：
 
-![picture](docs/resources/gitalk-with-this-plugin.png)
+![picture](../resources/gitalk-with-this-plugin.png)
 
 此外，本插件也强制在docsify路由更改时重新渲染gitalk，使得gitalk的评论显示正确。
 
@@ -84,12 +84,8 @@ window.$docsify = {
     })
     ```
 
-## Demo
-
-[Github Page](https://pikapikapikaori.github.io/docsify-gitalk-with-footer/)
-
 ## 其他
 
-如果您有对本项目的优化，欢迎提交PR。
+如果您有对[本项目](https://github.com/pikapikapikaori/docsify-gitalk-with-footer)的优化，欢迎提交PR。
 
 如果您喜欢本插件，可以给我点个star，谢谢！

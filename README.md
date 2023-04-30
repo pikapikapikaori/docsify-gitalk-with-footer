@@ -16,7 +16,7 @@ If you have tried gitalk plugin according to [here](https://docsify.js.org/#/plu
 
 - The gitalk is rendered to the bottom of the whole page, therefore it may look like this:
 
-    ![picture](resources/gitalk-default.png)
+    ![picture](docs/resources/gitalk-default.png)
 
     There is hardly no spacing between the bottom of gitalk and the bottom of the wholepage, and:
 
@@ -26,7 +26,7 @@ If you have tried gitalk plugin according to [here](https://docsify.js.org/#/plu
 
 This plugin adds a footer under gitalk, like this:
 
-![picture](resources/gitalk-with-this-plugin.png)
+![picture](docs/resources/gitalk-with-this-plugin.png)
 
 Besides, this plugin also force the browser to render gitalk each time after router change, so gitalk will show the correct comments according to different articles.
 
@@ -84,3 +84,13 @@ window.$docsify = {
         distractionFreeMode: false  // Facebook-like distraction free mode
     })
     ```
+
+## Demo
+
+[Github Page](https://pikapikapikaori.github.io/docsify-gitalk-with-footer/)
+
+## Others
+
+It's welcomed to make pr to this repo in order to improve this plugin.
+
+If you like this plugin, please give a star, thanks!
