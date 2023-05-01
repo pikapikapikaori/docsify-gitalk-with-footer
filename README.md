@@ -45,7 +45,7 @@ In `index.html`, add:
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
 
 <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/pikapikapikaori/docsify-gitalk-with-footer/src/gitalkWithFooter.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/pikapikapikaori/docsify-gitalk-with-footer@latest/src/gitalkWithFooter.js"></script>
 ```
 
 Add settings, please **do not add `id` in `gitalkConfig`**:

@@ -43,7 +43,7 @@
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
 
 <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/pikapikapikaori/docsify-gitalk-with-footer/src/gitalkWithFooter.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/pikapikapikaori/docsify-gitalk-with-footer@latest/src/gitalkWithFooter.js"></script>
 ```
 
 添加以下设置。注意，请**不要在`gitalkConfig`中添加`id`的设置**:
